@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENZO</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Georgia', serif;
+            color: rgb(255, 255, 255);
+            background-color:rgb(231, 0, 0);
+            padding: 60px;
+        }
+        header {
+            background: #000000f3;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            padding: 20px;
+        }
+        ul {
+            list-style-type: square;
+            text-align: left;
+            display: inline-block;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            background: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: darkblue;
+        }
+        footer {
+            margin-top: 20px;
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+        @media (max-width: 600px) {
+            .products img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>𝓚𝓔𝓝𝓩𝓞𝓚𝓔𝓝𝓩𝓞𝓚𝓔𝓝𝓩𝓞𝓚𝓔𝓝𝓩𝓞    KENZO    𝓚𝓔𝓝𝓩𝓞𝓚𝓔𝓝𝓩𝓞𝓚𝓔𝓝𝓩𝓞𝓚𝓔𝓝𝓩𝓞 </h1>
+    <header>WELCOME</header>
+    <div class="container">
+        <h2><B>#Trending</B></h2>
+        <div class="products">
+            <img src="https://wwd.com/wp-content/uploads/2023/08/AAA3391_V02.jpg?crop=0px%2C1111px%2C5223px%2C2922px&resize=1000%2C563" alt="Paris-Fweek"  style="width: 800px; height: 400px; margin: 10px;"><br>
+            <img src="https://footwearnews.com/wp-content/uploads/2023/09/kenzo.jpg?w=1024&h=681&crop=1" alt="Kenzo-F0" style="width: 400px; height: 300px; margin: 10px;">
+            <img src="https://theparfumerie.lk/wp-content/uploads/2021/08/K10200001_2.jpg" alt="Kenzo-F9" style="width: 400px; height: 300px; margin: 10px;" >
+            <img src="https://www.smithandcaugheys.co.nz/data/media/images/catalogue/C987/3274872464162_1.jpg?width=600&height=600" alt="Kenzo-F4" style="width: 400px; height: 300px; margin: 10px;">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/bed45d49542163.58b7b1233c5ce.jpg" alt="Product 4" style="width: 700px; height: 400px; margin: 10px;">
+
+        </div>
+        
+        <h2>CATEGORIES</h2>
+        <ul>
+            <li>Shoes</li>
+            <li>Clothing</li>
+            <li>Fragrance</li>
+            <li>Books</li>
+            <li>Accessories</li>
+        </ul>
+
+        <h2>Price Range</h2>
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Shoes</td>
+                <td>$120 - $600</td>
+            </tr>
+            <tr>
+                <td>Clothing</td>
+                <td>$200 - $8000</td>
+            </tr>
+            <tr>
+                <td>Other</td>
+                <td>$100 - $2000</td>
+            </tr>
+        </table>
+        
+        <button class="button" onclick="showAlert()">Click Me</button>
+        
+        <h2>Useful Links</h2>
+        <a href="#">Home</a> | 
+        <a href="#">About Us</a> | 
+        <a href="#">Products</a> | 
+        <a href="#">Contact</a> | 
+        <a href="#">FAQ</a>
+    </div>
+    <footer>&copy; 2025 Shop Website. All rights reserved.</footer>
+    
+    <script>
+        function showAlert() {
+            alert("Welcome!");
+        }
+    </script>
+</body>
+</html>
